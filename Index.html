@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--Das ist ein Kommentar-->
+    <title>BTA Kochen</title>
+    <meta name="description" content="Leckere Rezepte" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fonts/icons.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet">
+ <!--andere Schrift einfügen über https://fonts.google.com/ finden und installieren-->
+ 
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img src="img/logo.png" alt="Logo Kochmütze" height="40" />
+      </a>
+
+      <button><img src="img/menu.svg" alt="menuknopf" height="40" /></button>
+      <nav id="hauptmenü">
+        <ul>  <!-- Heißt: Es kommt eine Liste-->
+          <li> <!-- Listenelement-->
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Rezepte</a>
+          </li>
+          <li>
+            <a href="#">Kategorien</a>
+          </li>
+          <li>
+            <a href="#">Über uns</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="intro">
+        <div>
+          <h1>Die besten Rezepte für Webworker</h1>
+          <p>Es gibt mehr als Pizza und Ravioli</p>
+          <a href="#rezepte" class="knopf">Entdecke die Leckereien</a>
+        </div>
+      </section>
+
+      <section id="rezepte">
+        <h2>Die neuesten Rezepte</h2>
+        <div class="row">
+          <article class="card">
+            <a href="#">
+              <img src="img/farfalle.jpg" alt="Farfalle" />
+            </a>
+            <h3>
+              <a href="#">Farfalle Pesto</a>
+            </h3>
+
+            <p>
+              <a href="#">
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                  sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+              </a>
+            </p>
+
+            <p>
+              <a href="#" class="knopf">Zum Rezept</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <a href="#">
+              <img src="img/kuerbissuppe.jpg" alt="Kürbissuppe" />
+            </a>
+            <h3>
+              <a href="#">Kürbissuppe</a>
+            </h3>
+
+            <p>
+              <a href="#">
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                  sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+              </a>
+            </p>
+
+            <p>
+              <a href="#" class="knopf">Zum Rezept</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <a href="#">
+              <img src="img/pancakes.jpg" alt="Pancakes" />
+            </a>
+            <h3>
+              <a href="#">Pancakes</a>
+            </h3>
+
+            <p>
+              <a href="#">
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                  sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+              </a>
+            </p>
+
+            <p>
+              <a href="#" class="knopf">Zum Rezept</a>
+            </p>
+          </article>
+
+          <article class="card">
+            <a href="#">
+              <img src="img/reispfanne-lissabon.jpg" alt="Reispfanne" />
+            </a>
+            <h3>
+              <a href="#">Reispfanne Lissabon</a>
+            </h3>
+
+            <p>
+              <a href="#">
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                  sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+              </a>
+            </p>
+
+            <p>
+              <a href="#" class="knopf">Zum Rezept</a>
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <aside id="newsletter">
+      <!--Nebendoument zum beispiel für nebensächliches Inhalte-->
+      <p>Kein Rezept mehr verpassen</p>
+      <p>Hol dir unseren Newsletter</p>
+      <form action="">
+        <input type="email" name="email" id="email" placeholder="Deine E-Mail-Adresse" />
+        <!--placeholder= Platzhaltertext: Text verschwindet beim eintragen-->
+
+        <button type="submit" class="knopf knopfabo">Abonnieren</button>
+      </form>
+    </aside>
+<footer id="footer">
+<nav id="rechtliches">
+  <ul>
+    <li>
+      <a href="#">Impressum</a>
+    </li>
+    <li>
+      <a href="#">Datenschutz</a>
+    </li>
+    <li>
+      <a href="#">Kontakt</a>
+    </li>    
+  </ul>
+
+</nav>
+
+<nav id="social-menü">
+
+  <ul class="social">
+    <li class="icon-facebook">
+      <a href="https://www.facebook.com/" target="blank"></a>
+    </li>
+    <li class="icon-instagram">
+      <a href="https://www.Instagram.com/"target="blank"></a>
+    </li>
+    <li class="icon-youtube">
+      <a href="https://www.youtube.com/channel/UCMIgOXM2JEQ2Pv2d0_PVfcg"target="blank"></a>
+    </li>    
+  </ul>
+
+</nav>
+
+</footer>
+
+    <script src="js/menu.js"></script>
+  </body>
+</html>
