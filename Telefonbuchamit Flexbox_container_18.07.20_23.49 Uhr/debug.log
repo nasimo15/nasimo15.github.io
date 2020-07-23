@@ -1,0 +1,17 @@
+[0716/145106.811:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\ProgramData\Safe Family\Logs: Zugriff verweigert (0x5)
+[0716/145106.840:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Die Pipe wurde beendet. (0x6D)
+[0716/145106.842:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\ProgramData\Safe Family\Logs: Zugriff verweigert (0x5)
+[0718/220713.529:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\ProgramData\Safe Family\Logs: Zugriff verweigert (0x5)
+[0718/220713.530:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0718/220713.533:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Die Pipe wurde beendet. (0x6D)
+[0718/220713.535:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\ProgramData\Safe Family\Logs: Zugriff verweigert (0x5)
+[0718/234745.518:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\ProgramData\Safe Family\Logs: Zugriff verweigert (0x5)
+[0718/234745.529:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Die Pipe wurde beendet. (0x6D)
+[0718/234745.531:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\ProgramData\Safe Family\Logs: Zugriff verweigert (0x5)
+[0718/234853.135:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\ProgramData\Safe Family\Logs: Zugriff verweigert (0x5)
+[0718/234853.145:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Die Pipe wurde beendet. (0x6D)
+[0718/234853.147:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\ProgramData\Safe Family\Logs: Zugriff verweigert (0x5)
+[0719/010153.353:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\ProgramData\Safe Family\Logs: Zugriff verweigert (0x5)
+[0719/010153.364:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0719/010153.440:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Die Pipe wurde beendet. (0x6D)
+[0719/010153.441:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\ProgramData\Safe Family\Logs: Zugriff verweigert (0x5)
